@@ -1,0 +1,51 @@
+html {
+	width: 100vw;
+    height: 100vh;
+    
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+
+.search {
+	width: 35rem;
+    padding: 0.55rem;
+    border-radius: 5px; 
+    background-color: azure;
+}
+
+.search-box {
+	width: 100%;
+	margin: auto;
+	padding: 0;
+	background-color: rgba(0, 0, 0, 0);
+	color: #1f1f1d;
+    border: none;
+    font-family: Didact Gothic;
+	font-size: 18px;
+      
+}
+
+.search-box:focus {
+	outline: none;
+}
