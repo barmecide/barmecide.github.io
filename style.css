@@ -29,12 +29,23 @@ body {
 	height: 100%;
 }
 
+.credit {
+position: absolute;
+bottom: 0px;
+right:10px;
+color: whitesmoke;
+text-decoration: none; 
+font-weight: lighter;
+font-family: Didact Gothic;
+font-size: 10px;
+}
+
 .search {
 	width: 35rem;
 	padding: 0.55rem;
 	margin-left: 5px;
     border-radius: 5px; 
-	background-color: azure;
+	background-color: whitesmoke;
 }
 
 .search-box {
@@ -55,7 +66,7 @@ body {
 
 .menu{
     position: relative;
-    background-color: azure;
+    background-color: whitesmoke;
 	width: 35px;
 	padding: 3px;
     border-radius: 5px;
