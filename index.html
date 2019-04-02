@@ -52,7 +52,8 @@
 
 <script type="text/javascript">
 
-    var images = ['./Ressources/1.gif','./Ressources/2.gif','./Ressources/3.gif','./Ressources/4.gif','./Ressources/5.gif','./Ressources/6.gif'];
+    if ($(window).width()<800) var images = ['./Ressources/m1.gif','./Ressources/m2.gif','./Ressources/m3.gif'];
+    else var images = ['./Ressources/1.gif','./Ressources/3.gif','./Ressources/4.gif','./Ressources/5.gif','./Ressources/6.gif'];
     document.body.style.backgroundImage = 'url(' + images[Math.floor(Math.random() * images.length)] + ')';
 
     var Menu = {
